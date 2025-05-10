@@ -34,14 +34,15 @@ This web application allows users to upload an OMR sheet image, define columns o
 
 ## Project Structure
 
-omr-web-app/
-├── app.py # Flask backend server
-├── requirements.txt # Python dependencies
-├── static/
-│ └── script.js # Frontend JavaScript
-└── templates/
-└── index.html # Main HTML page
-└── README.md # This file
+    omr-web-app/
+    ├── .gitignore          # Specifies intentionally untracked files that Git should ignore
+    ├── app.py              # Flask backend server
+    ├── requirements.txt    # Python dependencies
+    ├── README.md           # This file (project overview and instructions)
+    ├── static/
+    │   └── script.js       # Frontend JavaScript
+    └── templates/
+        └── index.html      # Main HTML page
 
 
 ## Setup and Installation
